@@ -19,7 +19,7 @@ Once your account has been created send the username you have chosen to Jonas Bi
 
 ## 1.2 Fork this onboarding repository
 
-Now you should be quite comfortable with Git and Github and ready to contribute. Begin with creating a fork of this onboarding repository: https://github.com/Eyevinn/html-player
+Now you should be quite comfortable with Git and Github and ready to contribute. Begin with creating a fork of this onboarding repository: https://github.com/Eyevinn/onboarding-tasks
 
 Instructions on how to fork a repository can be found here: https://help.github.com/articles/fork-a-repo/
 
