@@ -13,7 +13,9 @@ This is an essential part on how our Special Video-Dev Team operates with our cu
 
 If you don't already have a Github account create an account by following the instructions here: https://help.github.com/articles/signing-up-for-a-new-github-account/
 
-We require that you enable two-factor authentication
+### We require that you enable two-factor authentication 
+ 
+You can find more info on choosing your 2FA account [here](https://help.github.com/en/github/authenticating-to-github/configuring-two-factor-authentication)
 
 Once your account has been created send the username you have chosen to Jonas Birmé on Slack or E-mail who will then add you to our organization on Github. If you are totally new to Git or Github we recommend you to take the time and read through the articles here: https://help.github.com/articles/good-resources-for-learning-git-and-github/
 
