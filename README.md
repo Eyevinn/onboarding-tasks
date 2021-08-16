@@ -108,3 +108,51 @@ Browse through Github to find a relevant repository / project in the video strea
  4. Issue pull request
  
 Congratulations! You have now made your (first) contribution to the video streaming open source community.
+
+## 7. FFMPEG (optional)
+
+When working with media processing, you may want to experiment with some aspects on your local machine. For example, you may want to investigate how different encoder parameters affect the quality of the final output. [FFMPEG](https://www.ffmpeg.org) is an open source media toolkit that handles pretty much everything you throw at it. In this section, we'll discuss how to install FFMPEG, and use it to transcode a video.
+
+## 7.1 Installing FFMPEG
+
+### macOS
+
+The easiest way of installing the latest version of FFMPEG on macOS is to use [homebrew](https://brew.sh). If you have homebrew installed, simply enter
+```
+brew install ffmpeg
+```
+into your terminal.
+
+### Windows
+If you're using windows, FFMPEG builds are available for download on the [FFMPEG download page](https://www.ffmpeg.org/download.html).
+
+### Linux
+If using a debian-based linux distro, entering
+```
+apt-get install ffmpeg
+```
+into your terminal will install FFMPEG on your system.
+
+### Note: custom builds
+Depending on your use case, you may need to build FFMPEG from source. The source code is available on the [FFMPEG download page](https://www.ffmpeg.org/download.html).
+
+## 7.2 Transcoding a video
+Now that FFMPEG is isntalled on your system, let's transcode a video. Start by verifying that FFMPEG is installed by entering
+```
+ffmpeg -version
+```
+into your terminal. You should see the version installed on your computer, as well as the configuration used for compiling it.
+
+Now, let's transcode a video! We'll use [Big buck bunny](https://peach.blender.org) as our content, since it's free to use ad open source.
+To download the video, enter 
+```
+curl -o bunny.mp4 http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_30fps_normal.mp4
+```
+The video is encoded using [h.264](https://en.wikipedia.org/wiki/Advanced_Video_Coding) and packaged into an MP4; we'll transcode it to instead use [VP9](https://en.wikipedia.org/wiki/VP9), and package it using a webm container. We'll also need to transcode the audio to use OGG vorbis.
+To do this, enter the following command into your terminal:
+```
+ffmpeg -i bunny.mp4 -c:v libvpx-vp9 -c:a libvorbis bunny.webm
+```
+This tells FFMEG to transcode the input `bunny.mp4` using the `libvpx-vp9` VP9 implementation for the video, and `libvorbis` Vorbis encoder, and write the output to the file `bunny.webm`.
+
+Congratulations, you've just transcoded a media file using FFMPEG! To learn more about FFMPEG, take a look at the [documentation](https://www.ffmpeg.org/documentation.html).
