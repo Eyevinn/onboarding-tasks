@@ -25,7 +25,7 @@ Now you should be quite comfortable with Git and Github and ready to contribute.
 
 Instructions on how to fork a repository can be found here: https://help.github.com/articles/fork-a-repo/
 
-Find something you want to modify with this text. When you have decided what you want to do, continue with next steps.
+Find SOMETHING (see what I did there) ggggyou want to modify with this text. When you have decided what you want to do, continue with next steps.
 
 ## 1.3 Create a topic branch
 
