@@ -1,4 +1,4 @@
-# Welcome
+# Welcome new developer
 First of all, we are happy to welcome you as new developer and consultant at Eyevinn Technology. The purpose with the following tasks is to get you quickly on-board to be able to contribute to the company and the video streaming open source community.
 
 Our manifesto is that whenever we have the possibility to release our code as open source we should. Source code under non-disclosure agreement and where the intellectual property belongs to our customers are of course not released.
