@@ -73,7 +73,7 @@ and then point your browser to `http://localhost:8080/` and if everything works 
 
 # 3. Basic knowledge in NodeJS
 
-Many applications are based on NodeJS backends and even though it may not be the main language of choice it is good to have basic knowledge in working with Javascript and async patterns. Mentor for this section is Erik Hoffman.
+Many applications are based on NodeJS backends and even though it may not be the main language of choice it is good to have basic knowledge in working with Javascript and async patterns. Mentor for this section is Benjamin Wallberg.
 
 ## 3.1. Javascript and Promises
 
@@ -88,7 +88,7 @@ Check out our Channel Engine project https://github.com/Eyevinn/channel-engine a
 
 ## 5. Create an iOS application (for Mac/iOS users)
 
-Even though you are not a main iOS developer it is good to have an understanding on the iOS/Xcode development framework. This section can be skipped if you are an experienced iOS developer. Mentor for this section is Erik Hoffman.
+Even though you are not a main iOS developer it is good to have an understanding on the iOS/Xcode development framework. This section can be skipped if you are an experienced iOS developer. Mentor for this section is TBD.
 
 ## 5.1. Build a simple Video Player application
 
