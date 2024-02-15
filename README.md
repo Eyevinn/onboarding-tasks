@@ -31,6 +31,9 @@ Find something you want to modify with this text. When you have decided what you
 
 Create a topic branch in your forked repository for the modifications that you decided to do. Instructions on how to create a topic branch can be found here: https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/
 
+### 1.3.1 Lindas Modification
+This is just me doing things.
+
 ## 1.4 Issue a pull request
 
 In your topic branch implement the feature and verify it works. Then issue a pull request, and instructions on how to do that can be found here: https://help.github.com/articles/creating-a-pull-request/
