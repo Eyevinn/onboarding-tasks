@@ -7,7 +7,7 @@ Read through these tasks and you can skip the tasks that you are already quite f
 
 # 1. Standard Contribution Workflow
 
-This is an essential part on how our Special Video-Dev Team operates with our customers code base. Mentor for this section is Jonas Rydholm Birmé.
+This is an essential part on how our Special Video-Dev Team operates with our customers code base. Mentor for this section is Jonas Birmé.
 
 ## 1.1 Create a Github account
 
@@ -39,7 +39,7 @@ Your pull request will then be reviewed and if everything looks good it will be 
 
 # 2. Working with Containerized Applications
 
-It is today common to work with containerized applications as part of a micro service architecture style. It is essential to have the basic knowledge in how to work with for example Docker containers. Mentor for this section is Jonas Rydholm Birmé.
+It is today common to work with containerized applications as part of a micro service architecture style. It is essential to have the basic knowledge in how to work with for example Docker containers. Mentor for this section is Jonas Birmé.
 
 ## 2.1 Install Docker Engine
 
@@ -84,7 +84,7 @@ Many applications are based on NodeJS backends and even though it may not be the
 
 ## 4. Contribute to our Channel Engine project
 
-Check out our Channel Engine project https://github.com/Eyevinn/channel-engine and get an understanding of what it does by reading https://medium.com/@eyevinntechnology/server-less-ott-only-playout-bc5a7f2e6d04. Clone the repository and get it up and running locally on your computer. Once you have understood the structure of the code it is time for you to make a contribution to the project. Ask Jonas Rydholm Birmé for a relevant task.
+Check out our Channel Engine project https://github.com/Eyevinn/channel-engine and get an understanding of what it does by reading https://medium.com/@eyevinntechnology/server-less-ott-only-playout-bc5a7f2e6d04. Clone the repository and get it up and running locally on your computer. Once you have understood the structure of the code it is time for you to make a contribution to the project. Ask Jonas  Birmé for a relevant task.
 
 ## 5. Create an iOS application (for Mac/iOS users)
 
