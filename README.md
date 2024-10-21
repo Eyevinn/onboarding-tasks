@@ -82,11 +82,11 @@ Many applications are based on NodeJS backends and even though it may not be the
 ## 3.3. Build a simple API with NodeJS
 
 
-## 4. Contribute to our Channel Engine project
+# 4. Contribute to our Channel Engine project
 
 Check out our Channel Engine project https://github.com/Eyevinn/channel-engine and get an understanding of what it does by reading https://medium.com/@eyevinntechnology/server-less-ott-only-playout-bc5a7f2e6d04. Clone the repository and get it up and running locally on your computer. Once you have understood the structure of the code it is time for you to make a contribution to the project. Ask Jonas Rydholm Birmé for a relevant task.
 
-## 5. Create an iOS application (for Mac/iOS users)
+# 5. Create an iOS application (for Mac/iOS users)
 
 Even though you are not a main iOS developer it is good to have an understanding on the iOS/Xcode development framework. This section can be skipped if you are an experienced iOS developer. Mentor for this section is TBD.
 
@@ -98,7 +98,7 @@ Create an iOS application with a table view containing a list of HLS streams. Te
 
 Add support for low-latency playback in the application you built in 5.1
 
-## 6. Make a contribution to the community
+# 6. Make a contribution to the community
 
 Browse through Github to find a relevant repository / project in the video streaming area which you can contribute to. When you have found the project to contribute to then:
 
@@ -109,7 +109,7 @@ Browse through Github to find a relevant repository / project in the video strea
  
 Congratulations! You have now made your (first) contribution to the video streaming open source community.
 
-## 7. FFMPEG (optional)
+# 7. FFMPEG (optional)
 
 When working with media processing, you may want to experiment with some aspects on your local machine. For example, you may want to investigate how different encoder parameters affect the quality of the final output. [FFMPEG](https://www.ffmpeg.org) is an open source media toolkit that handles pretty much everything you throw at it. In this section, we'll discuss how to install FFMPEG, and use it to transcode a video.
 
