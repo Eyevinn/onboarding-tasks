@@ -51,6 +51,12 @@ First step is to create an streaming video file that you will use. Record a vide
 
 Next step is to create a web application to playback the video stream you created. Follow the steps in the blog post [Creating a web video application](https://dev.to/video/creating-a-web-video-application-56pb). Make the web video application available online as described in the blog post but replace the site name `video` with something of your choice. Send the URL to your site to the mentor of this section.
 
+## 2.3 Create a video backend for the application
+
+Next step is to create a backend to manage the video assets you have created in 2.1. Setup a NoSQL document database as described in the blog post [NoSQL Key-Value database with open web services](https://dev.to/oscdev/nosql-key-value-database-with-open-web-services-3hg9) and the [CouchDB OSC documentation](https://docs.osaas.io/osaas.wiki/Service%3A-CouchDB.html). Then add a document for the video asset you created including the playback URL.
+
+Then modify the web application in 2.2 to read from the database and get the video asset you created and replace the hard-coded playback URL.
+
 # 3. Install Docker Engine
 
 It is today common to work with containerized applications as part of a micro service architecture style. It is essential to have the basic knowledge in how to work with for example Docker containers. Mentor for this section is Jonas Birmé.
