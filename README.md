@@ -57,6 +57,14 @@ Next step is to create a backend to manage the video assets you have created in 
 
 Then modify the web application in 2.2 to read from the database and get the video asset you created and replace the hard-coded playback URL.
 
+## 2.4 Create a virtual TV channel
+
+Next step is to create a virtual TV channel based on the video assets in the video backend you created in 2.3. Create a webhook as described in [step 2 in the virtual channels documentation](https://docs.osaas.io/osaas.wiki/Solution%3A-Virtual-Channels.html) but instead of a hard-coded playback URL use a playbackURL from the video backend. If you have multiple video assets you can return one at random. Deploy this webhook using the [web runner](https://docs.osaas.io/osaas.wiki/Service%3A-Web-Runner.html) in Eyevinn Open Source Cloud.
+
+Then create a virtual channel using the [FAST Channel Engine](https://docs.osaas.io/osaas.wiki/Service%3A-FAST-Channel-Engine.html) in Eyevinn OSC. Create channel of type webhook and provide the URL to the webhook that you deployed using the web runner above. Send the playback URL to the virtual channel to the mentor of this section.
+
+Now modify the web application and add a player that plays this virtual channel you created.
+
 # 3. Install Docker Engine
 
 It is today common to work with containerized applications as part of a micro service architecture style. It is essential to have the basic knowledge in how to work with for example Docker containers. Mentor for this section is Jonas Birmé.
